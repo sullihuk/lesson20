@@ -1,0 +1,3 @@
+Customer: sudii, phone: +7 913 010 39 28, arival's date: 220733Customer: saudi, phone: 3883838j, arival's date: 00000/nCustomer: pisdota, phone: 919191, arival's date: 1111111
+Customer: asdf, phone: 99999999, arival's date: 4664646
+Customer: pisdota, phone: +7 913 010 39 28, arival's date: 1111111

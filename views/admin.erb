@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title> Administration </title>
+		<meta desctiption="Administation">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+<h1>Administration</h1>
+
+<p>  <%= @users %> </p>
+
+
+<form action='/admin' method="POST"> 
+					<fieldset>
+						<legend> Log in form</legend>
+						<label for="aaa">Login:</label>
+						<input type="text" id="name" name="aaa"><br><br>
+						<label for="bbb">Password:</label>
+						<input type="password" id="age" name="bbb"><br><br>
+                                                
+                                                <input type='submit' name='submit' value='Send Data'/>
+					</fieldset>
+</form>
+
+
