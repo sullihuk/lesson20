@@ -10,7 +10,7 @@ post '/' do
   @phone = params[:phone]
   @date = params[:date]
 
-  f = File.open 'users.txt', 'a'
+  f = File.open './public/users.txt', 'a'
   f.write "Customer: #{@name}, phone: #{@phone}, arival's date: #{@date}\n"
   f.close
   erb :index
@@ -29,7 +29,7 @@ post '/admin' do
   @password =params[:bbb]
   
     if @login == 'admin' && @password == 'secret'
-       v = File.open 'users.txt', 'r'
+      v = File.open './public/users.txt', 'r'
        @users = v.read
        v.close
        erb :admin 
